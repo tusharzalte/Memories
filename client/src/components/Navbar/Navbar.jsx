@@ -17,7 +17,7 @@ const Navbar = () => {
   const handleLogout = () => {
     dispatch({ type: "LOGOUT" });
 
-    navigate("/memories-project");
+    // navigate("/memories-project");
 
     setUser(null);
     window.location.reload(false);
