@@ -1,6 +1,6 @@
 ### PREVIEW
 
-![Memories](https://i.ibb.co/fFcKC8x/memories-project.png)
+//![Memories](https://i.ibb.co/fFcKC8x/memories-project.png)
 
 ### MEMORIES
 
