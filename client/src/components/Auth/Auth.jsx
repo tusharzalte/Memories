@@ -29,7 +29,7 @@ const Auth = () => {
   gapi.load("client:auth2", () => {
     gapi.client.init({
       clientId:
-        "991408659262-tlv6j5uidoqo60bkp42gkaroc0e6sgch.apps.googleusercontent.com",
+        "192800617649-37d3ig0q80jfa27o5n3t9ps8b5p7i3oc.apps.googleusercontent.com",
       plugin_name: "chat",
     });
   });
@@ -135,7 +135,7 @@ const Auth = () => {
             {isSignUp ? "Sign Up" : "Sign In"}
           </Button>
           <GoogleLogin
-            clientId="991408659262-tlv6j5uidoqo60bkp42gkaroc0e6sgch.apps.googleusercontent.com"
+            clientId="192800617649-37d3ig0q80jfa27o5n3t9ps8b5p7i3oc.apps.googleusercontent.com"
             render={(renderProps) => (
               <Button
                 className={classes.googleButton}
