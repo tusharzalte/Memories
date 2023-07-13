@@ -67,7 +67,7 @@ const Auth = () => {
     try {
       dispatch({ type: "AUTH", data: { result, token } });
 
-      navigate("/memories-project");
+      navigate("/");
     } catch (error) {
       console.log(error);
     }
