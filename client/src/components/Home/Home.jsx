@@ -39,7 +39,7 @@ const Home = () => {
         `/posts/search?searchQuery=${search || "none"}&tags=${tags.join(",")}`
       );
     } else {
-      navigate("/memories-project");
+      navigate("/");
     }
   };
 
