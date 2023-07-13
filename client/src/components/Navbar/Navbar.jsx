@@ -17,7 +17,7 @@ const Navbar = () => {
   const handleLogout = () => {
     dispatch({ type: "LOGOUT" });
 
-     navigate("/memories-project");
+     navigate("/");
 
     setUser(null);
     window.location.reload(false);
@@ -36,7 +36,7 @@ const Navbar = () => {
 
   return (
     <AppBar className={classes.appBar} position="static" color="inherit">
-      <Link to="/memories-project" className={classes.brandContainer}>
+      <Link to="/" className={classes.brandContainer}>
         <img src={memoriesText} alt="icon" height="45px" />
         <img
           className={classes.image}
