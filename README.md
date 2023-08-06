@@ -108,7 +108,7 @@ $ npm start (for React client side development)
 
 <p align="center">
 <p>Screenshoots of some main features</p>
-<img src=./demo_images/Tushar.png>
+
 <p align="center">
   <img src="./demo_images/123.png" width="200" height="356">
 &nbsp; &nbsp; &nbsp; &nbsp;
